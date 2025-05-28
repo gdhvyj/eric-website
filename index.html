@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Erick Michael Conklin – Financial Advisor</title>
+
+  <meta name="description" content="Erick Michael Conklin, experienced financial advisor Guiding You to Smarter Investments and a More Secure Financial Future. Specializing in investment planning, retirement planning, and wealth management."/>
+  <meta property="og:title" content="Erick Michael Conklin – Financial Advisor"/>
+  <meta property="og:description" content="Guiding You to Smarter Investments and a More Secure Financial Future."/>
+  <meta property="og:image" content="/images/Professional Financial Advisor Headshot.png"/> <meta property="og:url" content="YOUR_WEBSITE_URL"/> <meta property="og:type" content="website"/>
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="twitter:title" content="Erick Michael Conklin – Financial Advisor"/>
+  <meta name="twitter:description" content="Guiding You to Smarter Investments and a More Secure Financial Future."/>
+  <meta name="twitter:image" content="/images/Professional Financial Advisor Headshot.png"/> <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet"/>
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+
+  <style>
+    body { font-family: 'Roboto', sans-serif; }
+    h1,h2,h3 { font-family: 'Playfair Display', serif; }
+    .hero { position: relative; overflow: hidden; }
+    .hero::before, .hero::after {
+      content: ""; position: absolute; border-radius: 50%;
+      background: rgba(255,255,255,0.1); width: 200px; height: 200px;
+      opacity: 0; animation: ripple 4s ease-out infinite;
+    }
+    .hero::before { top: -100px; left: -100px; animation-delay: 0s; }
+    .hero::after  { bottom: -100px; right: -100px; animation-delay: 2s; }
+    @keyframes ripple {
+      0%   { transform: scale(0); opacity: 0.5; }
+      100% { transform: scale(10); opacity: 0; }
+    }
+    .nav-active { text-decoration: underline; font-weight: 700; }
+    .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border-width: 0; }
+  </style>
+</head>
+<body class="bg-white text-black scroll-smooth">
+
+  <header class="fixed w-full z-50 bg-gradient-to-br from-blue-900 to-blue-800">
+    <div class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
+      <a href="#" class="text-2xl font-bold text-white flex items-center">
+        <i class="fas fa-chart-line mr-2"></i>EMC
+      </a>
+      <nav class="hidden md:flex space-x-6 text-white" aria-label="Main navigation">
+        <a href="#about"      class="hover:underline">About Me</a>
+        <a href="#services"   class="hover:underline">Services</a>
+        <a href="#licenses"   class="hover:underline">Licenses</a>
+        <a href="#experience" class="hover:underline">Experience</a>
+        <a href="#faq"        class="hover:underline">FAQ</a>
+        <a href="#book-call"  class="bg-white text-blue-800 px-4 py-2 rounded-lg font-semibold hover:bg-gray-100 transition">Contact</a>
+      </nav>
+      <button id="navToggle" class="md:hidden text-white focus:outline-none" aria-expanded="false" aria-controls="mobileNav">
+        <span class="sr-only">Open main menu</span>
+        <i class="fas fa-bars text-xl"></i>
+      </button>
+    </div>
+    <div id="mobileNav" class="hidden bg-blue-800 md:hidden">
+      <nav class="flex flex-col px-6 py-4 space-y-2" aria-label="Mobile navigation">
+        <a href="#about"      class="text-white py-2 hover:underline">About Me</a>
+        <a href="#services"   class="text-white py-2 hover:underline">Services</a>
+        <a href="#licenses"   class="text-white py-2 hover:underline">Licenses</a>
+        <a href="#experience" class="text-white py-2 hover:underline">Experience</a>
+        <a href="#faq"        class="text-white py-2 hover:underline">FAQ</a>
+        <a href="#book-call"  class="bg-white text-blue-800 px-4 py-2 my-2 rounded-lg font-semibold hover:bg-gray-100 transition text-center">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero min-h-screen flex flex-col md:flex-row items-center pt-24 md:pt-20 px-6 md:px-20 bg-gradient-to-br from-blue-900 to-blue-800">
+    <div class="w-full md:w-1/2 text-white" data-aos="fade-down">
+      <h1 class="text-4xl md:text-6xl font-bold mb-4">Hi, I’m Erick Michael Conklin</h1>
+      <p class="text-lg md:text-xl mb-8">
+        Guiding You to <span class="font-semibold">Smarter Investments</span><br/>
+        and a <span class="font-semibold">More Secure Financial Future.</span>
+      </p>
+      <a href="https://files.brokercheck.finra.org/individual/individual_2628129.pdf" target="_blank" rel="noopener noreferrer"
+         class="inline-block bg-gradient-to-r from-blue-700 to-blue-600 text-white font-semibold py-3 px-8 rounded-lg shadow-lg hover:opacity-90 transition"
+         data-aos="zoom-in">Detailed Report</a>
+    </div>
+    <div class="w-full md:w-1/2 mt-10 md:mt-0 flex justify-center" data-aos="fade-up">
+      <div class="w-64 h-64 rounded-full border-4 border-white overflow-hidden shadow-xl">
+        <img src="/images/Professional Financial Advisor Headshot.png" alt="Erick Michael Conklin, Financial Advisor" class="object-cover w-full h-full"/>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="py-16 px-6 md:px-20 bg-white border-t border-blue-700" data-aos="fade-up">
+    <div class="max-w-6xl mx-auto">
+      <div class="mb-12 flex flex-wrap justify-center items-center text-center text-black text-sm">
+        <div class="px-4 flex flex-col items-center"><i class="fas fa-id-card text-xl font-semibold text-blue-700 mb-1"></i><div>Overview</div><div class="text-gray-600">CRD#: 2628129</div></div>
+        <div class="h-8 border-l border-gray-300 mx-2 sm:mx-4"></div>
+        <div class="px-4 flex flex-col items-center"><div class="text-xl font-semibold text-blue-700">0</div><div>Disclosures</div></div>
+        <div class="h-8 border-l border-gray-300 mx-2 sm:mx-4"></div>
+        <div class="px-4 flex flex-col items-center"><div class="text-xl font-semibold text-blue-700">28</div><div>Years Exp.</div></div>
+        <div class="h-8 border-l border-gray-300 mx-2 sm:mx-4"></div>
+        <div class="px-4 flex flex-col items-center"><div class="text-xl font-semibold text-blue-700">1</div><div>Firm</div></div>
+        <div class="h-8 border-l border-gray-300 mx-2 sm:mx-4"></div>
+        <div class="px-4 flex flex-col items-center"><div class="text-xl font-semibold text-blue-700">53</div><div>States/Terr.</div></div>
+        <div class="h-8 border-l border-gray-300 mx-2 sm:mx-4"></div>
+        <div class="px-4 flex flex-col items-center"><div class="text-xl font-semibold text-blue-700">1</div><div>SRO</div></div>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+        <div>
+          <h2 class="text-3xl font-semibold mb-4 text-black">Broker Qualifications & Summary</h2>
+          <p class="mb-4 text-gray-700">Registered with Vanguard Marketing Corporation (CRD# 7452) since 09/17/1997. Passed Series 7, 63, 24, 66, and SIE exams.</p>
+          <p class="mb-4 text-gray-700">Licensed in all 50 states plus DC, Puerto Rico, USVI, Guam, American Samoa, and Northern Mariana Islands. No disclosures on record.</p>
+          <p class="text-gray-700">View the detailed report linked above for full history, registrations, and compliance record.</p>
+        </div>
+        <div class="text-center">
+          <img src="/images/Professional Portrait in Office Setting.png" alt="Professional portrait of Erick Michael Conklin" class="w-full max-w-sm mx-auto rounded-lg shadow-xl mb-6" loading="lazy"/>
+          <a href="#book-call" class="inline-block bg-gradient-to-r from-blue-700 to-blue-600 text-white font-semibold py-3 px-8 rounded-lg shadow-lg hover:opacity-90 transition">Schedule a Session</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="services" class="py-16 px-6 md:px-20 bg-blue-50 border-t border-blue-700" data-aos="fade-up">
+    <div class="max-w-6xl mx-auto text-center">
+      <h2 class="text-3xl font-semibold mb-4 text-black">What I Offer</h2>
+      <p class="mb-12 text-gray-700">Smart Strategies, Secure Futures – Expert Financial Services Tailored for You!</p>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div class="text-left bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow"><img src="https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=600&q=80" alt="Graph showing investment growth" class="mb-4 rounded shadow aspect-video object-cover" loading="lazy"/><h3 class="text-2xl font-bold mb-2 text-black">Investment Planning</h3><p class="text-gray-600">Tailored strategies to grow your wealth while managing risk effectively.</p></div>
+        <div class="text-left bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow"><img src="https://images.unsplash.com/photo-1573164574572-cb89e39749b4?auto=format&fit=crop&w=600&q=80" alt="Professionals discussing retirement plans" class="mb-4 rounded shadow aspect-video object-cover" loading="lazy"/><h3 class="text-2xl font-bold mb-2 text-black">Retirement Planning</h3><p class="text-gray-600">Secure your future with strategic income & risk management.</p></div>
+        <div class="text-left bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow"><img src="https://images.unsplash.com/photo-1591696205602-2f950c417cb9?auto=format&fit=crop&w=600&q=80" alt="Stock market data on a screen" class="mb-4 rounded shadow aspect-video object-cover" loading="lazy"/><h3 class="text-2xl font-bold mb-2 text-black">Stock Market Advisory</h3><p class="text-gray-600">Expert insights & recommendations for savvy investors.</p></div>
+        <div class="text-left bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow"><img src="https://images.unsplash.com/photo-1556740749-887f6717d7e4?auto=format&fit=crop&w=600&q=80" alt="Person reviewing financial documents for wealth management" class="mb-4 rounded shadow aspect-video object-cover" loading="lazy"/><h3 class="text-2xl font-bold mb-2 text-black">Wealth Management</h3><p class="text-gray-600">Holistic approach to grow, preserve & transfer your wealth.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="licenses" class="py-16 px-6 md:px-20 bg-white border-t border-blue-700" data-aos="fade-up">
+    <div class="max-w-6xl mx-auto text-black">
+      <h2 class="text-3xl md:text-4xl font-semibold mb-4">Registrations & Licenses</h2>
+      <p class="mb-8 text-lg text-gray-700 font-medium">Licensed in all U.S. states & territories; member of FINRA.</p>
+      <div class="columns-2 sm:columns-3 md:columns-4 gap-4 sm:gap-6 text-left text-gray-600">
+        <p>Alabama</p><p>Alaska</p><p>Arizona</p><p>Arkansas</p><p>California</p><p>Colorado</p><p>Connecticut</p><p>Delaware</p><p>District of Columbia</p><p>Florida</p><p>Georgia</p><p>Hawaii</p><p>Idaho</p><p>Illinois</p><p>Indiana</p><p>Iowa</p><p>Kansas</p><p>Kentucky</p><p>Louisiana</p><p>Maine</p><p>Maryland</p><p>Massachusetts</p><p>Michigan</p><p>Minnesota</p><p>Mississippi</p><p>Missouri</p><p>Montana</p><p>Nebraska</p><p>Nevada</p><p>New Hampshire</p><p>New Jersey</p><p>New Mexico</p><p>New York</p><p>North Carolina</p><p>North Dakota</p><p>Ohio</p><p>Oklahoma</p><p>Oregon</p><p>Pennsylvania</p><p>Puerto Rico</p><p>Rhode Island</p><p>South Carolina</p><p>South Dakota</p><p>Tennessee</p><p>Texas</p><p>Utah</p><p>Vermont</p><p>Virginia</p><p>Washington</p><p>West Virginia</p><p>Wisconsin</p><p>Wyoming</p><p>American Samoa</p><p>Guam</p><p>Northern Mariana Islands</p><p>U.S. Virgin Islands</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="experience" class="py-16 px-6 md:px-20 bg-blue-50 border-t border-blue-700" data-aos="fade-up">
+    <div class="max-w-6xl mx-auto text-center">
+      <h2 class="text-3xl md:text-4xl font-semibold mb-2 text-black">Work History</h2>
+      <p class="mb-8 text-gray-700">Primary registration with Vanguard Marketing Corporation, Malvern, PA (09/1997–Present)</p>
+      <div class="relative py-8">
+        <div class="absolute inset-0 flex items-center" aria-hidden="true"><div class="w-full border-t border-blue-500"></div></div>
+        <button id="scrollLeftBtn" class="absolute left-0 top-1/2 transform -translate-y-1/2 p-2 bg-blue-600 text-white rounded-full shadow hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400 z-10"><span class="sr-only">Scroll left</span><i class="fas fa-chevron-left"></i></button>
+        <div id="experienceTimeline" class="relative flex justify-start space-x-8 px-4 overflow-x-auto text-black scroll-smooth snap-x snap-mandatory">
+          <div class="flex flex-col items-center min-w-[180px] sm:min-w-[200px] snap-center" data-aos="fade-up"><div class="bg-blue-600 text-white rounded-full p-3 shadow"><i class="fas fa-briefcase"></i></div><p class="mt-4 font-semibold">09/1997 – Present</p><p class="text-sm text-gray-600">Vanguard Marketing Corp.<br/>Malvern, PA</p></div>
+          <div class="flex flex-col items-center min-w-[180px] sm:min-w-[200px] snap-center" data-aos="fade-up" data-aos-delay="100"><div class="bg-blue-600 text-white rounded-full p-3 shadow"><i class="fas fa-briefcase"></i></div><p class="mt-4 font-semibold">07/1995 – 05/1997</p><p class="text-sm text-gray-600">Nori, Hennion, Walsh, Inc.<br/>Parsippany, NJ</p></div>
+        </div>
+        <button id="scrollRightBtn" class="absolute right-0 top-1/2 transform -translate-y-1/2 p-2 bg-blue-600 text-white rounded-full shadow hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400 z-10"><span class="sr-only">Scroll right</span><i class="fas fa-chevron-right"></i></button>
+      </div>
+    </div>
+  </section>
+
+  <section id="faq" class="py-16 px-6 md:px-20 bg-white border-t border-blue-700 text-center" data-aos="fade-up">
+    <div class="max-w-4xl mx-auto text-black">
+      <h2 class="text-3xl font-semibold mb-4">Frequently Asked Questions</h2>
+      <p class="mb-8 text-gray-700">Got questions? Your answers are below.</p>
+      <div class="space-y-4 text-left">
+        <details class="bg-blue-50 border border-blue-200 rounded-lg p-4 group"><summary class="cursor-pointer font-medium text-black list-none flex justify-between items-center">What does a financial advisor do?<i class="fas fa-chevron-down group-open:rotate-180 transition-transform"></i></summary><p class="mt-2 text-gray-600">A financial advisor helps you create strategies for eliminating financial risk and building wealth over the long term. This includes investment management, retirement planning, estate planning, and more, tailored to your specific financial goals.</p></details>
+        <details class="bg-blue-50 border border-blue-200 rounded-lg p-4 group"><summary class="cursor-pointer font-medium text-black list-none flex justify-between items-center">How often will we review my plan?<i class="fas fa-chevron-down group-open:rotate-180 transition-transform"></i></summary><p class="mt-2 text-gray-600">Typically, we review plans on a quarterly or semi-annual basis. However, the frequency can be adjusted based on your individual needs, market conditions, or significant life events.</p></details>
+        <details class="bg-blue-50 border border-blue-200 rounded-lg p-4 group"><summary class="cursor-pointer font-medium text-black list-none flex justify-between items-center">What fees do you charge?<i class="fas fa-chevron-down group-open:rotate-180 transition-transform"></i></summary><p class="mt-2 text-gray-600">My fee structure is transparent and typically based on a percentage of assets under management. For specific services, a fixed fee may apply. We will discuss all fees upfront before any commitment.</p></details>
+        <details class="bg-blue-50 border border-blue-200 rounded-lg p-4 group"><summary class="cursor-pointer font-medium text-black list-none flex justify-between items-center">Can you manage my existing investment portfolio?<i class="fas fa-chevron-down group-open:rotate-180 transition-transform"></i></summary><p class="mt-2 text-gray-600">Yes, I can review your existing portfolio, assess its alignment with your financial goals, and recommend adjustments or manage it on your behalf to optimize performance and manage risk.</p></details>
+      </div>
+    </div>
+  </section>
+
+  <section id="book-call" class="py-20 px-6 md:px-20 bg-blue-50 border-t border-blue-700 text-center" data-aos="fade-up">
+    <div class="max-w-xl mx-auto">
+      <h2 class="text-3xl font-semibold mb-6 text-black">Let's Talk About Your Future</h2>
+      <p class="mb-8 text-gray-700">Fill out the form below to schedule a complimentary consultation and start your journey towards financial security.</p>
+      
+      <form 
+        action="https://formspree.io/f/xyzwrnao" method="POST" 
+        class="space-y-6 text-left text-black"
+      >
+        <div>
+          <label for="fullName" class="sr-only">Full Name</label>
+          <input type="text" id="fullName" name="fullName" placeholder="Full Name" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500" required/>
+        </div>
+        <div>
+          <label for="email" class="sr-only">Email</label>
+          <input type="email" id="email" name="email" placeholder="Email Address" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500" required/>
+        </div>
+        <div>
+          <label for="phoneNumber" class="sr-only">Phone Number</label>
+          <input type="tel" id="phoneNumber" name="phoneNumber" placeholder="Phone Number (Optional)" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"/>
+        </div>
+        <div>
+          <label for="message" class="sr-only">Your message or financial goal</label>
+          <textarea id="message" name="message" rows="4" placeholder="Briefly tell me about your financial goals or questions..." class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"></textarea>
+        </div>
+        <button type="submit" class="w-full bg-gradient-to-r from-blue-700 to-blue-600 text-white font-semibold py-3 px-8 rounded-lg shadow-lg hover:opacity-90 transition focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2">
+          Send Message
+        </button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="bg-white border-t border-blue-700 py-8 px-6 md:px-20 text-center text-gray-600">
+    <p>&copy; <span id="currentYear"></span> Erick Michael Conklin. All rights reserved.</p>
+    <p class="text-sm mt-2">
+      Securities offered through Vanguard Marketing Corporation, member
+      <a href="https://files.brokercheck.finra.org/individual/individual_2628129.pdf" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline">FINRA</a>
+      and
+      <a href="https://www.sipc.org/" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline">SIPC</a>.
+    </p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init({ duration: 800, easing: 'ease-in-out', once: true });
+    const navToggle = document.getElementById('navToggle');
+    const mobileNav = document.getElementById('mobileNav');
+    if (navToggle && mobileNav) {
+      navToggle.addEventListener('click', () => {
+        const isExpanded = mobileNav.classList.toggle('hidden');
+        navToggle.setAttribute('aria-expanded', String(!isExpanded));
+        const icon = navToggle.querySelector('i');
+        if (!isExpanded) { icon.classList.remove('fa-bars'); icon.classList.add('fa-times'); }
+        else { icon.classList.remove('fa-times'); icon.classList.add('fa-bars'); }
+      });
+      mobileNav.querySelectorAll('a').forEach(link => {
+        link.addEventListener('click', () => {
+          mobileNav.classList.add('hidden');
+          navToggle.setAttribute('aria-expanded', 'false');
+          const icon = navToggle.querySelector('i');
+          icon.classList.remove('fa-times'); icon.classList.add('fa-bars');
+        });
+      });
+    }
+    const experienceTimeline = document.getElementById('experienceTimeline');
+    const scrollLeftBtn = document.getElementById('scrollLeftBtn');
+    const scrollRightBtn = document.getElementById('scrollRightBtn');
+    if (experienceTimeline && scrollLeftBtn && scrollRightBtn) {
+      const scrollAmount = 200; 
+      scrollLeftBtn.addEventListener('click', () => experienceTimeline.scrollBy({ left: -scrollAmount, behavior: 'smooth' }));
+      scrollRightBtn.addEventListener('click', () => experienceTimeline.scrollBy({ left: scrollAmount, behavior: 'smooth' }));
+    }
+    const currentYearSpan = document.getElementById('currentYear');
+    if (currentYearSpan) { currentYearSpan.textContent = new Date().getFullYear(); }
+    const sections = document.querySelectorAll('section[id]');
+    const navLinks = document.querySelectorAll('header nav a[href^="#"]'); 
+    function changeNavOnScroll() {
+      let currentSection = '';
+      sections.forEach(section => {
+        const sectionTop = section.offsetTop;
+        if (pageYOffset >= sectionTop - 80) { currentSection = section.getAttribute('id'); }
+      });
+      navLinks.forEach(link => {
+        link.classList.remove('nav-active'); 
+        if (link.getAttribute('href') === `#${currentSection}`) { link.classList.add('nav-active'); }
+      });
+      const contactNavButton = document.querySelector('header nav a[href="#book-call"].bg-white'); 
+      if (contactNavButton) { 
+          if (currentSection === 'book-call') { contactNavButton.classList.add('ring-2', 'ring-offset-2', 'ring-blue-400'); }
+          else { contactNavButton.classList.remove('ring-2', 'ring-offset-2', 'ring-blue-400'); }
+      }
+    }
+    window.addEventListener('scroll', changeNavOnScroll);
+    window.addEventListener('load', changeNavOnScroll);
+  </script>
+</body>
+</html>
