@@ -212,7 +212,10 @@
 
   <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
   <script>
+    // AOS Initialization
     AOS.init({ duration: 800, easing: 'ease-in-out', once: true });
+
+    // Mobile Navigation Toggle
     const navToggle = document.getElementById('navToggle');
     const mobileNav = document.getElementById('mobileNav');
     if (navToggle && mobileNav) {
@@ -232,6 +235,8 @@
         });
       });
     }
+
+    // Experience Timeline Scroller
     const experienceTimeline = document.getElementById('experienceTimeline');
     const scrollLeftBtn = document.getElementById('scrollLeftBtn');
     const scrollRightBtn = document.getElementById('scrollRightBtn');
@@ -240,8 +245,12 @@
       scrollLeftBtn.addEventListener('click', () => experienceTimeline.scrollBy({ left: -scrollAmount, behavior: 'smooth' }));
       scrollRightBtn.addEventListener('click', () => experienceTimeline.scrollBy({ left: scrollAmount, behavior: 'smooth' }));
     }
+
+    // Dynamic Copyright Year
     const currentYearSpan = document.getElementById('currentYear');
     if (currentYearSpan) { currentYearSpan.textContent = new Date().getFullYear(); }
+
+    // Active Navigation Link Highlighting on Scroll
     const sections = document.querySelectorAll('section[id]');
     const navLinks = document.querySelectorAll('header nav a[href^="#"]'); 
     function changeNavOnScroll() {
@@ -262,6 +271,26 @@
     }
     window.addEventListener('scroll', changeNavOnScroll);
     window.addEventListener('load', changeNavOnScroll);
+
+    // VVVVVV  ADD THE NEW CODE STARTING HERE VVVVVV
+    // --- NEW SCRIPT TO CLEAR FORM AFTER SUBMISSION ---
+    window.addEventListener('load', function() {
+      if (window.location.hash === '#form-success') {
+        const contactForm = document.getElementById('contactForm'); // Use the ID we added to the form
+        if (contactForm) {
+          contactForm.reset(); // Clears the form fields
+        }
+        
+        // Optional: Clean the URL
+        if (history.replaceState) {
+          history.replaceState(null, null, window.location.pathname + window.location.search);
+        } else {
+          window.location.hash = ''; // Fallback for older browsers
+        }
+      }
+    });
+    // ^^^^^^ ADD THE NEW CODE ENDING HERE ^^^^^^
+
   </script>
 </body>
 </html>
